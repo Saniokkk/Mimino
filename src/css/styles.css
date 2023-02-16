@@ -10,7 +10,7 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 400;
 
   color: #242424;
@@ -23,7 +23,22 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body{
+  margin: 0;
+}
+
 .nav{
   display: flex;
   gap: 80px;
+}
+
+.title{
+  font-size: 80px;
+}
+
+.btn-back{
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 5px;
 }
