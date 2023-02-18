@@ -14,4 +14,4 @@ jobs:
         ref: main
     - name: Delete Merged Branches
       run: |
-        git branch --merged | egrep -v "(^\*|main|master)" | xargs git branch -d
+        git branch --merged | egrep -v "(^\*|main|master)" | xargs git branch -D
