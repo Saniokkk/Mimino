@@ -1,0 +1,17 @@
+name: Delete Merged Branches
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  delete-merged-branches:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout main
+      uses: actions/checkout@v2
+      with:
+        ref: main
+    - name: Delete Merged Branches
+      run: |
+        git branch --merged | egrep -v "(^\*|main|master)" | xargs git branch -d
