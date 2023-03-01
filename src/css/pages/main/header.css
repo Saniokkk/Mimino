@@ -1,0 +1,32 @@
+.header {}
+
+.container {}
+
+.header-container{
+  display: flex;
+}
+
+.logo {}
+
+.nav {}
+
+.nav-list {
+  display: flex;
+  gap: 72px;
+}
+
+.nav-item {}
+
+.nav-link {}
+
+.nav-link-tel{
+  padding: 12px 8px;
+  border: 1px solid;
+}
+.nav-icon {}
+
+.social-list {}
+
+.social-item {}
+
+.social-link {}

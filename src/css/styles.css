@@ -5,35 +5,9 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
+@import url('./pages/main/header.css');
 
 body{
   margin: 0;
 }
 
-.nav{
-  display: flex;
-  gap: 80px;
-}
-
-.title{
-  font-size: 80px;
-}
-
-.btn-back{
-  display: inline-block;
-  padding: 10px 20px;
-  border: 1px solid;
-  border-radius: 5px;
-  background-color: antiquewhite;
-}
-
-.page2{
-  background-color: aquamarine;
-}
-.page3{
-  background-color: gold;
-}
-.page4{
-  background-color: violet;
-}
