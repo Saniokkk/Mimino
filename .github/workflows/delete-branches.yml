@@ -11,6 +11,7 @@ jobs:
     - name: Checkout main
       uses: actions/checkout@v2
       with:
+        with: node-version: '16'
         ref: main
     - name: Delete Merged Branches
       run: |
