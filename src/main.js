@@ -1,7 +1,14 @@
-// let sum = null;
-// for (i = 1995; i < 2021; i++){
-//   sum = i + i + 1;
-//   console.log('sum: ', sum);  
-// }
+function count (string) {  
+  if(string.length === 0){
+   return {};
+    }
+  string.split('').reduce((acc, el, index) => {
+    acc.el += 1
+    console.log("🚀 ~ file: main.js:9 ~ string.split ~ acc:", acc)
+    
+  }, {})
+    
+}
 
-// console.log(sum / 27);
+
+count(street);

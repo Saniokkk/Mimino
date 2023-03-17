@@ -26,7 +26,7 @@ export default defineConfig({
           optimizationLevel: 5,
         },
         mozjpeg: {
-          quality: 100,
+          quality: 50,
         },
         pngquant: {
           quality: [0.8, 0.9],
